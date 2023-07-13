@@ -1,0 +1,8 @@
+[2023-07-11 19:50:14.974] /home/morishita/.vscode/extensions/eamodio.gitlens-14.0.1/dist/gitlens.js:1:296098
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 2,2:src/card/.gitignore
+fatal: There is no path src/card/.gitignore in the commit
+
+[2023-07-11 19:50:17.631] /home/morishita/.vscode/extensions/eamodio.gitlens-14.0.1/dist/gitlens.js:1:296098
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 2,2:src/card/.gitignore
+fatal: There is no path src/card/.gitignore in the commit
+

@@ -1,0 +1,46 @@
+# INFOVIST
+up-infovist:
+	sudo docker-compose --env-file ./.env.infovist -f docker-compose.dev.yml up --build -d
+up-infovist-server:
+	sudo docker-compose --env-file ./.env.infovist -f docker-compose.prd.yml up --build -d
+stop-infovist:
+	sudo docker-compose -p infovist -f docker-compose.dev.yml stop
+stop-infovist-server:
+	sudo docker-compose -p infovist -f docker-compose.prd.yml stop
+php-infovist:
+	sudo docker exec -i -t infovist_php_1 /bin/bash
+psql-infovist:
+	sudo docker exec -i -t infovist_postgres_1 /bin/bash
+redis-infovist:
+	sudo docker exec -i -t infovist_redis_1 /bin/bash
+nginx-infovist:
+	sudo docker exec -i -t infovist_nginx_1 /bin/bash
+
+
+# INFOVIST SWOOLE
+up-infovist-swoole:
+	sudo docker-compose --env-file ./.env.infovist-swoole -f docker-compose.dev-swoole.yml up --build -d
+stop-infovist-swoole:
+	sudo docker-compose -p infovist-swoole -f docker-compose.dev-swoole.yml stop
+php-infovist-swoole:
+	sudo docker exec -i -t infovist-swoole_swoole /bin/bash
+psql-infovist-swoole:
+	sudo docker exec -i -t infovist_postgres_swoole /bin/bash
+
+# INFOCAR
+up-infocar:
+	sudo docker-compose --env-file ./.env.infocar -f docker-compose.dev.yml up --build -d
+up-infocar-server:
+	sudo docker-compose --env-file ./.env.infocar -f docker-compose.prd.yml up --build -d
+stop-infocar:
+	sudo docker-compose -p infocar -f docker-compose.dev.yml stop
+stop-infocar-server:
+	sudo docker-compose -p infocar -f docker-compose.prd.yml stop
+php-infocar:
+	sudo docker exec -i -t infocar_php_1 /bin/bash
+psql-infocar:
+	sudo docker exec -i -t infocar_postgres_1 /bin/bash
+redis-infocar:
+	sudo docker exec -i -t infocar_redis_1 /bin/bash
+nginx-infocar:
+	sudo docker exec -i -t infocar_nginx_1 /bin/bash

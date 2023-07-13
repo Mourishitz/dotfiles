@@ -1,0 +1,2 @@
+COMPOSE_PROJECT_NAME=infocar
+COMPOSE_PROJECT_PATH=../infocar-backend/

@@ -1,0 +1,23 @@
+# GIMP action-history
+
+(history-item "file-open" 0)
+(history-item "file-quit" 2)
+(history-item "tools-rect-select" 1)
+(history-item "tools-scale" 0)
+(history-item "tools-aspect-decrease" 1)
+(history-item "tools-iscissors" 0)
+(history-item "tools-paintbrush" 0)
+(history-item "file-save" 0)
+(history-item "file-export-as" 0)
+(history-item "file-overwrite" 0)
+(history-item "tools-fuzzy-select" 0)
+(history-item "select-all" 0)
+(history-item "select-none" 0)
+(history-item "layers-delete" 0)
+(history-item "image-new" 0)
+(history-item "tools-measure" 0)
+(history-item "select-invert" 0)
+(history-item "edit-clear" 0)
+(history-item "tools-color-picker" 1)
+
+# end of action-history

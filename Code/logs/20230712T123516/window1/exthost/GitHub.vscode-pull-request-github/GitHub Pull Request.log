@@ -1,0 +1,13 @@
+2023-07-12 12:35:28.362 [warning] /home/morishita/.ssh/config: ENOENT: no such file or directory, open '/home/morishita/.ssh/config'
+2023-07-12 12:35:29.373 [info] Looking for git repository
+2023-07-12 12:35:29.374 [info] Found 0 repositories during activation
+2023-07-12 12:35:29.374 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-12 12:35:29.383 [info] Registering git provider
+2023-07-12 12:35:29.383 [info] Review> Validate state in progress
+2023-07-12 12:35:29.383 [info] Review> Validating state...
+2023-07-12 12:35:29.417 [info] Found GitHub remote for folder /home/morishita/Dev/LightStand/Backend/smart-pass-backend
+2023-07-12 12:35:29.594 [info] Repo state for file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend changed.
+2023-07-12 12:35:29.594 [info] Repo file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend has already been setup.
+2023-07-12 12:35:29.594 [info] Review> No matching pull request metadata found locally for current branch gm-pdf-logics
+2023-07-12 12:35:29.594 [info] Review> no matching pull request metadata found for current branch gm-pdf-logics
+2023-07-12 12:35:29.596 [info] Review> No matching pull request metadata found on GitHub for current branch gm-pdf-logics

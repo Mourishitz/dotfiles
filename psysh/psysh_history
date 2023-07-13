@@ -1,0 +1,2 @@
+bcrypt('senhaForte123!')
+exit()

@@ -1,0 +1,16 @@
+2023-07-11 15:55:46.450 [info] Getting Manifest... cweijan.vscode-database-client2
+2023-07-11 15:55:46.453 [info] Getting Manifest... tabnine.tabnine-vscode
+2023-07-11 15:55:46.518 [info] Installing extension: cweijan.vscode-database-client2
+2023-07-11 15:55:46.520 [info] Installing extension: tabnine.tabnine-vscode
+2023-07-11 15:55:49.085 [info] Extension signature is verified: tabnine.tabnine-vscode
+2023-07-11 15:55:49.085 [info] Extension signature is verified: cweijan.vscode-database-client2
+2023-07-11 15:55:49.186 [info] Extracted extension to /home/morishita/.vscode/extensions/.fa51005a-7f8d-4cf8-973f-ac5c47e5b71d: tabnine.tabnine-vscode
+2023-07-11 15:55:49.189 [info] Renamed to /home/morishita/.vscode/extensions/tabnine.tabnine-vscode-3.6.72
+2023-07-11 15:55:49.191 [info] Extracting extension completed. tabnine.tabnine-vscode
+2023-07-11 15:55:49.200 [info] Extension installed successfully: tabnine.tabnine-vscode
+2023-07-11 15:55:49.203 [info] Marked extension as uninstalled tabnine.tabnine-vscode-3.6.71
+2023-07-11 15:55:49.334 [info] Extracted extension to /home/morishita/.vscode/extensions/.1849fc70-3bcc-4a63-b134-0267d207ba4b: cweijan.vscode-database-client2
+2023-07-11 15:55:49.337 [info] Renamed to /home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12
+2023-07-11 15:55:49.339 [info] Extracting extension completed. cweijan.vscode-database-client2
+2023-07-11 15:55:49.347 [info] Extension installed successfully: cweijan.vscode-database-client2
+2023-07-11 15:55:49.350 [info] Marked extension as uninstalled cweijan.vscode-database-client2-6.5.11

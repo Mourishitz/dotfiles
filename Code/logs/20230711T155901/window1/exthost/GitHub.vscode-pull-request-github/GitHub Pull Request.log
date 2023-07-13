@@ -1,0 +1,25 @@
+2023-07-11 15:59:08.666 [warning] /home/morishita/.ssh/config: ENOENT: no such file or directory, open '/home/morishita/.ssh/config'
+2023-07-11 15:59:08.918 [info] Looking for git repository
+2023-07-11 15:59:08.918 [info] Found 0 repositories during activation
+2023-07-11 15:59:08.918 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-11 15:59:08.924 [info] Registering git provider
+2023-07-11 15:59:08.924 [info] Review> Validate state in progress
+2023-07-11 15:59:08.924 [info] Review> Validating state...
+2023-07-11 15:59:08.955 [info] Found GitHub remote for folder /home/morishita/Dev/LightStand/Backend/smart-pass-backend
+2023-07-11 15:59:09.352 [info] Repo state for file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend changed.
+2023-07-11 15:59:09.352 [info] Repo file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend has already been setup.
+2023-07-11 15:59:09.353 [info] Review> No matching pull request metadata found locally for current branch gm-pdf-logics
+2023-07-11 15:59:09.353 [info] Review> no matching pull request metadata found for current branch gm-pdf-logics
+2023-07-11 15:59:09.353 [info] Review> No matching pull request metadata found on GitHub for current branch gm-pdf-logics
+2023-07-11 16:50:28.099 [info] Review> Validate state in progress
+2023-07-11 16:50:28.099 [info] Review> Validating state...
+2023-07-11 16:50:28.130 [info] Found GitHub remote for folder /home/morishita/Dev/LightStand/Backend/smart-pass-backend
+2023-07-11 16:50:28.176 [info] Review> No matching pull request metadata found locally for current branch gm-pdf-logics
+2023-07-11 16:50:28.176 [info] Review> no matching pull request metadata found for current branch gm-pdf-logics
+2023-07-11 16:50:28.176 [info] Review> No matching pull request metadata found on GitHub for current branch gm-pdf-logics
+2023-07-11 22:47:55.577 [info] Review> Validate state in progress
+2023-07-11 22:47:55.577 [info] Review> Validating state...
+2023-07-11 22:47:55.592 [info] Found GitHub remote for folder /home/morishita/Dev/LightStand/Backend/smart-pass-backend
+2023-07-11 22:47:55.879 [info] Review> No matching pull request metadata found locally for current branch gm-pdf-logics
+2023-07-11 22:47:55.879 [info] Review> no matching pull request metadata found for current branch gm-pdf-logics
+2023-07-11 22:47:55.879 [info] Review> No matching pull request metadata found on GitHub for current branch gm-pdf-logics

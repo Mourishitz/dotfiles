@@ -1,0 +1,16 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="clickhouse">
+      <artifact id="ClickHouse" name="ClickHouse" use="true" version="0.4.0" />
+    </driver>
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
+    </driver>
+    <driver id="sqlite.xerial">
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.40.1" />
+    </driver>
+    <driver id="redis">
+      <artifact id="Redis" name="Redis" use="true" version="1.3" />
+    </driver>
+  </component>
+</application>

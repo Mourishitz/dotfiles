@@ -1,0 +1,7 @@
+2023-07-11 15:55:38.178 [info] update#setState idle
+2023-07-11 15:56:08.182 [info] update#setState checking for updates
+2023-07-11 15:56:08.186 [info] update#setState idle
+2023-07-11 15:58:53.944 [error] CodeWindow: detected unresponsive
+2023-07-11 15:58:57.832 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-11 15:58:57.833 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1308]: crashed with code 15 and reason 'killed'
+2023-07-11 15:58:57.913 [info] Extension host with pid 1292 exited with code: 0, signal: unknown.

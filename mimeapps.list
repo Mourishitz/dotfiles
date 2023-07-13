@@ -1,0 +1,13 @@
+[Default Applications]
+text/html=vivaldi-stable.desktop
+x-scheme-handler/http=vivaldi-stable.desktop
+x-scheme-handler/https=vivaldi-stable.desktop
+x-scheme-handler/about=vivaldi-stable.desktop
+x-scheme-handler/unknown=vivaldi-stable.desktop
+x-scheme-handler/eclipse+command=_usr_lib_dbeaver_.desktop
+image/png=swappy.desktop
+
+[Added Associations]
+image/jpeg=swappy.desktop;
+image/png=swappy.desktop;
+application/pdf=gimp.desktop;

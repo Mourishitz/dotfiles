@@ -1,0 +1,5 @@
+2023-06-27 14:08:08.287 [info] [perf] Render performance baseline is 76ms
+2023-06-27 14:09:16.585 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

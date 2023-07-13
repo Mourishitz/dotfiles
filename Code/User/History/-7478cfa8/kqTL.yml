@@ -1,0 +1,65 @@
+name: Pull Request Actions
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  pr_actions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Add label to the pull request
+        uses: actions/github-script@v6
+        env:
+          LABEL_NAME: 'Pull Request 🔀'
+        with:
+          script: |
+            const { context, github } = require('@actions/github');
+            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+
+            const issue_number = context.issue.number;
+            const label_name = process.env.LABEL_NAME;
+
+            octokit.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue_number,
+              labels: [label_name]
+            });
+
+      - name: Link GitHub Projects board
+        uses: actions/github-script@v6
+        env:
+          LABEL_NAME: 'Pull Request 🔀'
+          PROJECT_URL: ${{ secrets.PROJECT_URL }}
+        with:
+          script: |
+            const { context, github } = require('@actions/github');
+            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+
+            const issue_number = context.issue.number;
+            const project_url = process.env.PROJECT_URL;
+            const label_name = process.env.LABEL_NAME;
+
+            octokit.projects.createCard({
+              column_id: project_url,
+              content_id: context.payload.pull_request.node_id,
+              content_type: 'PullRequest'
+            });
+
+            octokit.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue_number,
+              labels: [label_name]
+            });

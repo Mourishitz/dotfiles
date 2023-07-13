@@ -1,0 +1,40 @@
+2023-07-12 12:35:17.801 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-12 12:35:17.827 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-07-12 12:35:19.477 [warning] [mainThreadStorage] large extension state detected (extensionId: kbysiec.vscode-search-everywhere, global: false): 1071.66796875kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2023-07-12 12:35:24.320 [info] [perf] Render performance baseline is 121ms
+2023-07-12 13:17:58.387 [error] Error: file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend/src/card/card.service.ts has changed in the meantime
+    at e.BulkTextEdits.o (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:767:9592)
+    at e.BulkTextEdits.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:767:10294)
+    at p.o (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2310:25230)
+    at p.perform (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2310:24657)
+    at e.BulkEditService.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2310:26500)
+    at e.MainThreadBulkEdits.$tryApplyWorkspaceEdit (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1544:13973)
+    at p.N (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:15346)
+    at p.M (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:15064)
+    at p.H (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:14157)
+    at p.G (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:13295)
+    at vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:11926
+    at g.invoke (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:145)
+    at r.deliver (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:2121)
+    at s.fire (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:1729)
+    at l.fire (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:564:15121)
+    at ee.onmessage (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1636:1497)
+2023-07-12 13:17:58.388 [warning] IGNORING workspace edit: Error: file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend/src/card/card.service.ts has changed in the meantime
+2023-07-12 13:19:22.885 [error] Error: file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend/src/card/card.service.ts has changed in the meantime
+    at e.BulkTextEdits.o (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:767:9592)
+    at e.BulkTextEdits.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:767:10294)
+    at p.o (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2310:25230)
+    at p.perform (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2310:24657)
+    at e.BulkEditService.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2310:26500)
+    at e.MainThreadBulkEdits.$tryApplyWorkspaceEdit (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1544:13973)
+    at p.N (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:15346)
+    at p.M (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:15064)
+    at p.H (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:14157)
+    at p.G (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:13295)
+    at vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1535:11926
+    at g.invoke (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:145)
+    at r.deliver (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:2121)
+    at s.fire (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:93:1729)
+    at l.fire (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:564:15121)
+    at ee.onmessage (vscode-file://vscode-app/var/lib/snapd/snap/code/132/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1636:1497)
+2023-07-12 13:19:22.885 [warning] IGNORING workspace edit: Error: file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend/src/card/card.service.ts has changed in the meantime

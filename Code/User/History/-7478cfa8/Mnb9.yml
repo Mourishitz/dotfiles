@@ -1,0 +1,43 @@
+name: Pull Request Actions
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  pr_actions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Test Application
+        run: yarn lint
+
+      - name: Link GitHub Projects board
+        uses: actions/github-script@v6
+        env:
+          PROJECT_URL: ${{ secrets.PROJECT_URL }}
+        with:
+          script: |
+            const { context, github } = require('@actions/github');
+            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+
+            const issue_number = context.issue.number;
+            const project_url = process.env.PROJECT_URL;
+
+            octokit.projects.createCard({
+              column_id: project_url,
+              content_id: context.payload.pull_request.node_id,
+              content_type: 'PullRequest'
+            });

@@ -1,0 +1,8 @@
+all:
+	nasm -f bin ./src/boot/boot.asm -o ./bin/boot.bin
+
+./build/kernel.asm.o: ./src/kernel.asm
+	nasm -f elf ./src/kernel.asm ./build/kernel.asm.o
+
+clean:
+	rm -rf ./bin/boot.bin

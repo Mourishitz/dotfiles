@@ -1,0 +1,246 @@
+2023-07-03 15:49:05 Creating PostgreSQL connection for 1688410145181/postgres
+2023-07-03 15:49:05 Closing conneciton 1688410145181/postgres
+2023-07-03 15:49:06 Creating PostgreSQL connection for 1688410146731/postgres
+2023-07-03 15:49:06 Closing conneciton 1688410146731/postgres
+2023-07-03 15:49:13 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-03 15:49:13 Closing conneciton 1688410153119/smartpass_db
+2023-07-03 15:49:17 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-03 15:49:17 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-06 08:18:36 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-06 08:18:39 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-06 08:54:01 Execute sql fail : SELECT * FROM templates LIMIT 100 WHERE id == 2
+2023-07-06 08:54:01 error: syntax error at or near "WHERE"
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-06 08:54:09 Execute sql fail : SELECT * FROM templates LIMIT 100 WHERE id = 2
+2023-07-06 08:54:09 error: syntax error at or near "WHERE"
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-06 08:54:09 Execute sql fail : SELECT * FROM templates LIMIT 100 WHERE id = 2
+2023-07-06 08:54:09 error: syntax error at or near "WHERE"
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-06 08:54:10 Execute sql fail : SELECT * FROM templates LIMIT 100 WHERE id = 2
+2023-07-06 08:54:10 error: syntax error at or near "WHERE"
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-06 08:54:15 Execute sql fail : SELECT * FROM templates LIMIT 100 WHERE IS 2
+2023-07-06 08:54:15 error: syntax error at or near "WHERE"
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-06 08:54:28 Execute sql fail : SELECT * FROM templates WHERE id == 2LIMIT 100 LIMIT 100 OFFSET 0
+2023-07-06 08:54:28 error: trailing junk after numeric literal at or near "2L"
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-06 08:54:29 Execute sql fail : SELECT * FROM templates WHERE id == 2 LIMIT 100
+2023-07-06 08:54:29 error: operator does not exist: integer == integer
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-06 08:55:56 Execute sql fail : SELECT * FROM templatesLIMIT 100 LIMIT 100 OFFSET 0
+2023-07-06 08:55:56 error: syntax error at or near "100"
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-07 15:48:55 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-07 15:48:57 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:36:20 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-10 11:36:37 Closing conneciton 1688410153119/smartpass_db_tree
+2023-07-10 11:36:37 Closing conneciton 1688410153119/smartpass_db
+2023-07-10 11:36:37 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:36:37 Closing conneciton 1688410153119/smartpass_db
+2023-07-10 11:36:37 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:36:38 Closing conneciton 1688410153119/smartpass_db
+2023-07-10 11:37:56 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:37:57 Closing conneciton 1688410153119/smartpass_db
+2023-07-10 11:37:57 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:37:57 Closing conneciton 1688410153119/smartpass_db
+2023-07-10 11:37:57 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:37:57 Closing conneciton 1688410153119/smartpass_db
+2023-07-10 11:37:57 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:37:57 Closing conneciton 1688410153119/smartpass_db
+2023-07-10 11:38:00 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 11:38:00 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-10 13:41:56 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-10 13:41:58 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-10 13:44:22 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations=';{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:22 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:32 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:32 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:33 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:33 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:33 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:33 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:34 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:34 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:34 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:34 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:46 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:46 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:46 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:46 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:46 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:46 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:46 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:46 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 13:44:46 Execute sql fail : UPDATE layouts SET informations='{"provisória":{"position":{"x":300,"y":10},"type":"text", height: 10, width: 10}}' WHERE "id"=5;UPDATE layouts SET informations='{"nome":{"position":{"x":10,"y":300},"type":"text", height: 10, width: 10}}' WHERE "id"=6;
+2023-07-10 13:44:46 error: invalid input syntax for type json
+	at u7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76811:70)
+	at u7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76683:23)
+	at u7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-10 15:15:57 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-10 15:16:00 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-11 15:58:05 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-11 15:58:07 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-11 16:45:45 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-11 16:45:47 Creating PostgreSQL connection for 1688410153119/smartpass_db

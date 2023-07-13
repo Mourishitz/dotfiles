@@ -1,0 +1,4 @@
+2023-07-11 15:59:03.030 [info] Deleted from disk tabnine.tabnine-vscode /home/morishita/.vscode/extensions/tabnine.tabnine-vscode-3.6.71
+2023-07-11 15:59:03.031 [info] Deleted from disk cweijan.vscode-database-client2 /home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.11
+2023-07-11 16:39:54.938 [error] [uncaught exception in sharedProcess]: A system error occurred (read ECONNRESET): Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)

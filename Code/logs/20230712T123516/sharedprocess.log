@@ -1,0 +1,4 @@
+2023-07-12 12:42:55.174 [error] [uncaught exception in sharedProcess]: A system error occurred (getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com): Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-07-12 13:15:52.622 [error] [uncaught exception in sharedProcess]: A system error occurred (getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com): Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)

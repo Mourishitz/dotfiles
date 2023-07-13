@@ -1,0 +1,32 @@
+version: "3.3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    networks:
+      - network1
+
+  db:
+    image: postgres:15-alpine
+    restart: always
+    ports:
+      - "5432:5432"
+    env_file:
+      - ./docker/db.env
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - network1
+
+networks:
+  network1:
+    driver: bridge
+
+volumes:
+  db_data: {}
