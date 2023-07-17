@@ -1,6 +1,7 @@
 <application>
   <component name="SnykApplicationSettingsState">
-    <option name="cliVersion" value="1.1187.0" />
+    <option name="cliVersion" value="1.1189.0" />
+    <option name="lastCheckDate" value="1689279065928" />
     <option name="lastTimeFeedbackRequestShown" value="1689172362848" />
     <option name="pluginFirstInstallTime" value="1687888663063" />
     <option name="pluginInstalled" value="true" />

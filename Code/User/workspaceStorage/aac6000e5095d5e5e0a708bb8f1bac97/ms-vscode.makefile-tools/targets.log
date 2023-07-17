@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul  7 09:26:35 2023
+# Make data base, printed on Thu Jul 13 15:02:10 2023
 
 # Variables
 
@@ -17,7 +17,7 @@ LC_ALL = C
 # environment
 NO_AT_BRIDGE = 1
 # environment
-STARSHIP_SESSION_KEY = 1923327453080712
+STARSHIP_SESSION_KEY = 2474275651529120
 # environment
 SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
 # environment
@@ -31,7 +31,7 @@ MAKE_COMMAND := make
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/132/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/133/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -43,15 +43,17 @@ PWD = /home/morishita/LightOS
 # environment
 MAIL = /var/spool/mail/morishita
 # environment
-XDG_DATA_DIRS = /home/morishita/snap/code/132/.local/share:/home/morishita/snap/code/132:/snap/code/132/usr/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /home/morishita/snap/code/133/.local/share:/home/morishita/snap/code/133:/snap/code/133/usr/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+SNAP_EUID = 1000
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/morishita/.config/Code/CachedData/695af097c7bd098fbf017ce3ac85e09bbc5dda06
+VSCODE_CODE_CACHE_PATH = /home/morishita/.config/Code/CachedData/660393deaaa6d1996740ff4880f1bad43768c814
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session3
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
 # environment
 LANG = C
 # default
@@ -61,7 +63,7 @@ LANG = C
 # makefile
 MAKEFLAGS = pqrR
 # environment
-HYPRLAND_INSTANCE_SIGNATURE = 51a930f802c71a0e67f05e7b176ded74e8e95f87_1688732782
+HYPRLAND_INSTANCE_SIGNATURE = 51a930f802c71a0e67f05e7b176ded74e8e95f87_1689176083
 # makefile
 CURDIR := /home/morishita/LightOS
 # environment
@@ -83,7 +85,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 1097
+VSCODE_PID = 148139
 # environment
 MOZ_ENABLE_WAYLAND = 1
 # environment
@@ -109,7 +111,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-GTK_PATH = /snap/code/132/usr/lib/x86_64-linux-gnu/gtk-3.0
+GTK_PATH = /snap/code/133/usr/lib/x86_64-linux-gnu/gtk-3.0
 # makefile
 SHELL = /bin/sh
 # default
@@ -133,17 +135,17 @@ MOTD_SHOWN = pam
 # environment
 SNAP_USER_COMMON = /home/morishita/snap/code/common
 # environment
-SNAP = /snap/code/132
+SNAP = /snap/code/133
 # environment
 XDG_BACKEND = wayland
 # environment
-SNAP_REVISION = 132
+SNAP_REVISION = 133
 # environment
 SNAP_REAL_HOME = /home/morishita
 # environment
 _JAVA_AWT_WM_NONREPARENTING = 1
 # makefile (from 'Makefile', line 1)
-FILES = ./build/kernel.asm.o ./build/kernel.o
+FILES = ./build/kernel.asm.o ./build/kernel.o ./build/idt/idt.asm.o ./build/idt/idt.o ./build/memory/memory.o ./build/io/io.asm.o
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -161,12 +163,15 @@ DESKTOP_SESSION = hyprland
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = Hyprland
 # environment
-LOCPATH = /snap/code/132/usr/lib/locale
+LOCPATH = /snap/code/133/usr/lib/locale
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
+XDG_DATA_DIRS_VSCODE_SNAP_ORIG = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
 LOGNAME = morishita
 # environment
+ 
 HYPRLAND_CMD = Hyprland
 # environment
 LIBVA_DRIVER_NAME = nvidia
@@ -185,7 +190,7 @@ USER = morishita
 # default
 MAKE_VERSION := 4.4.1
 # environment
-SNAP_DATA = /var/snap/code/132
+SNAP_DATA = /var/snap/code/133
 # environment
 SNAP_CONTEXT = NNw2Orj0eK_7Ifw3aJDZzASbWJp2y44pg63sccHh8t26rUYba3y3
 # environment
@@ -193,11 +198,13 @@ DEBUGINFOD_URLS = https://debuginfod.archlinux.org
 # environment
 STARSHIP_SHELL = bash
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 1048
+GIO_LAUNCHED_DESKTOP_FILE_PID = 148094
 # environment
 _ = /usr/bin/make
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
+# environment
+SNAP_UID = 1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/morishita/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
@@ -213,13 +220,13 @@ HOME = /home/morishita
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6ced5236-1.79-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6ced5236-1.80-main.sock
 # environment
-GTK_EXE_PREFIX = /snap/code/132/usr
+GTK_EXE_PREFIX = /snap/code/133/usr
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /home/morishita/snap/code/132/.local/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /home/morishita/snap/code/133/.local/share/glib-2.0/schemas
 # environment
 XDG_SESSION_ID = 2
 # environment
@@ -229,7 +236,7 @@ XCURSOR_SIZE = 24
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = 695af097
+SNAP_VERSION = 660393de
 # default
 SUFFIXES := 
 # environment
@@ -241,11 +248,11 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver jobserver-fifo output-sync check-symlink guile load
 # environment
-SNAP_USER_DATA = /home/morishita/snap/code/132
+SNAP_USER_DATA = /home/morishita/snap/code/133
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=117/1024=11%, Rehash=0, Collisions=2/150=1%
+# Load=120/1024=12%, Rehash=0, Collisions=2/153=1%
 
 # Pattern-specific Variable Values
 
@@ -253,9 +260,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66306, inode 4326338): 8 files, no impossibilities.
+# . (device 66306, inode 4326338): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -266,28 +273,36 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 bin/boot.bin: src/boot/boot.asm
 #  Implicit rule search has not been done.
 #  File is secondary (prerequisite of .SECONDARY).
-#  Last modified 2023-07-06 15:34:52.010315417
+#  Last modified 2023-07-13 14:44:13.261601039
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 17):
 	nasm -f bin ./src/boot/boot.asm -o ./bin/boot.bin
 
-bin/kernel.bin: build/kernel.asm.o build/kernel.o
+bin/kernel.bin: build/kernel.asm.o build/kernel.o build/idt/idt.asm.o build/idt/idt.o build/memory/memory.o build/io/io.asm.o
 #  Implicit rule search has not been done.
 #  File is secondary (prerequisite of .SECONDARY).
-#  Last modified 2023-07-06 16:24:25.577854445
+#  Last modified 2023-07-13 14:46:02.998829201
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 13):
- 
 	i686-elf-ld -g -relocatable $(FILES) -o ./build/kernelfull.o
 	i686-elf-gcc $(FLAGS) -T ./src/linker.ld -o ./bin/kernel.bin -ffreestanding -O0 -nostdlib ./build/kernelfull.o
+
+build/idt/idt.o: src/idt/idt.c
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 14:44:13.308267945
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 29):
+	i686-elf-gcc $(INCLUDES) -I./src/idt $(FLAGS) -std=gnu99 -c ./src/idt/idt.c -o ./build/idt/idt.o
 
 # Not a target:
 src/kernel.o:
 #  Implicit rule search has been done.
 #  File is secondary (prerequisite of .SECONDARY).
-#  Last modified 2023-07-06 16:24:25.547854342
+#  Last modified 2023-07-13 14:43:18.391318504
 #  File has been updated.
 #  Successfully updated.
 
@@ -295,7 +310,7 @@ src/kernel.o:
 Makefile:
 #  Implicit rule search has been done.
 #  File is secondary (prerequisite of .SECONDARY).
-#  Last modified 2023-07-06 14:48:04.413408944
+#  Last modified 2023-07-13 14:30:32.247130972
 #  File has been updated.
 #  Successfully updated.
 
@@ -303,7 +318,7 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 26):
+#  recipe to execute (from 'Makefile', line 38):
 	rm -rf ./bin/boot.bin
 	rm -rf ./bin/kernel.bin
 	rm -rf ./bin/os.bin
@@ -313,11 +328,20 @@ clean:
 build/kernel.o: src/kernel.o
 #  Implicit rule search has not been done.
 #  File is secondary (prerequisite of .SECONDARY).
-#  Last modified 2023-07-06 16:24:25.567854411
+#  Last modified 2023-07-13 14:44:13.294934544
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 23):
 	i686-elf-gcc $(INCLUDES) $(FLAGS) -std=gnu99 -c ./src/kernel.c -o ./build/kernel.o
+
+build/memory/memory.o: src/memory/memory.c
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 14:44:13.321601347
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 32):
+	i686-elf-gcc $(INCLUDES) -I./src/memory $(FLAGS) -std=gnu99 -c ./src/memory/memory.c -o ./build/memory/memory.o
 
 # Not a target:
 src/kernel.asm:
@@ -373,14 +397,56 @@ all: bin/boot.bin bin/kernel.bin
 	dd if=/dev/zero bs=512 count=100 >> ./bin/os.bin
 	
 
+# Not a target:
+src/idt/idt.asm:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 12:04:54.938613474
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/io/io.asm:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 14:45:59.232143332
+#  File has been updated.
+#  Successfully updated.
+
+build/idt/idt.asm.o: src/idt/idt.asm
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 14:44:13.294934544
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 26):
+	nasm -f elf -g ./src/idt/idt.asm -o ./build/idt/idt.asm.o
+
 build/kernel.asm.o: src/kernel.asm
 #  Implicit rule search has not been done.
 #  File is secondary (prerequisite of .SECONDARY).
-#  Last modified 2023-07-06 15:34:52.013648766
+#  Last modified 2023-07-13 14:44:13.26826774
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 20):
 	nasm -f elf -g ./src/kernel.asm -o ./build/kernel.asm.o
+
+build/io/io.asm.o: src/io/io.asm
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 14:46:02.98216245
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 35):
+	nasm -f elf -g ./src/io/io.asm -o ./build/io/io.asm.o
+
+# Not a target:
+src/memory/memory.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 12:10:12.157812798
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .SUFFIXES:
@@ -388,20 +454,29 @@ build/kernel.asm.o: src/kernel.asm
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+src/idt/idt.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-13 12:05:18.822155961
+#  File has been updated.
+#  Successfully updated.
+
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/36=0%
+ 
+# Load=20/1024=2%, Rehash=0, Collisions=0/56=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 217 B / avg = 9 B
-# current buf: size = 8162 B / used = 217 B / count = 22 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 31 / storage = 367 B / avg = 11 B
+# current buf: size = 8162 B / used = 367 B / count = 31 / avg = 11 B
 
-# strcache performance: lookups = 37 / hit rate = 40%
+# strcache performance: lookups = 54 / hit rate = 42%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/37=0%
-# Finished Make data base on Fri Jul  7 09:26:35 2023
+# Load=31/8192=0%, Rehash=0, Collisions=0/54=0%
+# Finished Make data base on Thu Jul 13 15:02:10 2023
 
  

@@ -1,3 +1,0 @@
-2023-07-11 15:55:39.338 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-07-11 15:55:39.364 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2023-07-11 15:55:43.303 [info] [perf] Render performance baseline is 38ms

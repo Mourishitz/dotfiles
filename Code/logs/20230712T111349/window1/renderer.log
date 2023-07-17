@@ -1,4 +1,0 @@
-2023-07-12 11:13:50.968 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-07-12 11:13:50.990 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2023-07-12 11:13:51.736 [warning] [mainThreadStorage] large extension state detected (extensionId: kbysiec.vscode-search-everywhere, global: false): 1071.40625kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
-2023-07-12 11:13:53.769 [info] [perf] Render performance baseline is 32ms

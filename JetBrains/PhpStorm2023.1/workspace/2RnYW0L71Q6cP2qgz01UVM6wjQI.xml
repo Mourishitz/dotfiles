@@ -38,7 +38,7 @@
       <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Api/User/Mails/UserSetPasswordMail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-329">
+            <state>
               <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Api/User/Mails/UserConfirmationMail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
+            <state relative-caret-position="591">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
@@ -111,7 +111,7 @@
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name=".env file">
-      <summary usageCount="15" lastUsed="1689172360640" />
+      <summary usageCount="17" lastUsed="1689279050773" />
     </fileType>
     <fileType name="Blade">
       <summary usageCount="5" lastUsed="1688660450391" />
@@ -129,13 +129,13 @@
       <summary usageCount="2" lastUsed="1687896269860" />
     </fileType>
     <fileType name="PHP">
-      <summary usageCount="52" lastUsed="1689172389127" />
+      <summary usageCount="58" lastUsed="1689279063261" />
     </fileType>
     <fileType name="SQL">
       <summary usageCount="3" lastUsed="1687975591049" />
     </fileType>
     <fileType name="YAML">
-      <summary usageCount="4" lastUsed="1689172360704" />
+      <summary usageCount="5" lastUsed="1689279050859" />
     </fileType>
     <fileType name="textmate">
       <summary usageCount="3" lastUsed="1687980662899" />
@@ -197,13 +197,13 @@
       <summary usageCount="1" lastUsage="1687959716770" />
     </language>
     <language id="DotEnv">
-      <summary usageCount="15" lastUsage="1689172360640" />
+      <summary usageCount="17" lastUsage="1689279050773" />
     </language>
     <language id="Markdown">
       <summary usageCount="2" lastUsage="1687896269860" />
     </language>
     <language id="PHP">
-      <summary usageCount="52" lastUsage="1689172389127" />
+      <summary usageCount="58" lastUsage="1689279063261" />
     </language>
     <language id="SQL">
       <summary usageCount="3" lastUsage="1687975591049" />
@@ -212,7 +212,7 @@
       <summary usageCount="3" lastUsage="1687980662899" />
     </language>
     <language id="yaml">
-      <summary usageCount="4" lastUsage="1689172360704" />
+      <summary usageCount="5" lastUsage="1689279050859" />
     </language>
   </component>
   <component name="ProjectView">
@@ -253,6 +253,14 @@
               <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend/app}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend/app/Api}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend/app/Api/PriceTable}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="infocar-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend/app}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend/app/Api}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend/app/Api/PriceTable}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/morishita/Dev/Infocar/Backend/infocar-backend/app/Api/PriceTable/Requests}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="infocar-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -328,7 +336,7 @@
     <option name="mySelectedTabIndex" value="1" />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32695000" />
+    <option name="totallyTimeSpent" value="32737000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
@@ -370,8 +378,8 @@
       <unified_weights bottom="0.32952285" left="0.2502637" />
     </layout>
     <recentWindows>
-      <value>Terminal</value>
       <value>Project</value>
+      <value>Terminal</value>
       <value>Version Control</value>
       <value>Database</value>
       <value>Services</value>
@@ -678,7 +686,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Api/User/Mails/UserSetPasswordMail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
+        <state>
           <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
@@ -692,8 +700,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Api/User/Mails/UserConfirmationMail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
+        <state relative-caret-position="591">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Api/PriceTable/Requests/PriceTableIndexRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="62" />
         </state>
       </provider>
     </entry>

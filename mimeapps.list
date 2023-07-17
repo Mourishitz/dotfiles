@@ -10,4 +10,4 @@ image/png=swappy.desktop
 [Added Associations]
 image/jpeg=swappy.desktop;
 image/png=swappy.desktop;
-application/pdf=gimp.desktop;
+application/pdf=firefox.desktop;gimp.desktop;

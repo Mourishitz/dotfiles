@@ -244,3 +244,71 @@
 2023-07-11 15:58:07 Creating PostgreSQL connection for 1688410153119/smartpass_db
 2023-07-11 16:45:45 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
 2023-07-11 16:45:47 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-13 07:43:21 Creating PostgreSQL connection for 1688410153119/smartpass_db_tree
+2023-07-13 07:43:24 Creating PostgreSQL connection for 1688410153119/smartpass_db
+2023-07-13 07:55:42 Execute sql fail : UPDATE layouts SET informations='\\{"nome":{"position":{"x":420,"y":445},"height":29,"width":333,"type":"string"},"instituicao_de_ensino":{"type":"string","position":{"x":310,"y":355},"width":333,"height":29},"nascimento":{"type":"string","position":{"x":447,"y":307},"width":192,"height":29},"matricula":{"type":"string","position":{"x":381,"y":322},"width":110,"height":29},"rg":{"type":"string","position":{"x":359,"y":355},"width":205,"height":29},"cpf":{"type":"string","position":{"x":381,"y":390},"width":205,"height":29},"foto":{"type":"image","position":{"x":55,"y":138},"width":229,"height":303}}' WHERE "id"=22;
+2023-07-13 07:55:42 error: invalid input syntax for type json
+	at d7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76811:70)
+	at d7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76683:23)
+	at d7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-13 07:56:06 Execute sql fail : UPDATE layouts SET informations='\\{"nome":{"position":{"x":420,"y":445},"height":29,"width":333,"type":"string"},"instituicao_de_ensino":{"type":"string","position":{"x":310,"y":355},"width":333,"height":29},"nascimento":{"type":"string","position":{"x":447,"y":307},"width":192,"height":29},"matricula":{"type":"string","position":{"x":381,"y":300},"width":110,"height":29},"rg":{"type":"string","position":{"x":359,"y":355},"width":205,"height":29},"cpf":{"type":"string","position":{"x":381,"y":390},"width":205,"height":29},"foto":{"type":"image","position":{"x":55,"y":138},"width":229,"height":303}}' WHERE "id"=22;
+2023-07-13 07:56:06 error: invalid input syntax for type json
+	at d7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76811:70)
+	at d7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76683:23)
+	at d7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-13 07:56:42 Execute sql fail : UPDATE layouts SET informations='\\{"nome":{"position":{"x":420,"y":445},"height":29,"width":333,"type":"string"},"instituicao_de_ensino":{"type":"string","position":{"x":310,"y":355},"width":333,"height":29},"nascimento":{"type":"string","position":{"x":447,"y":307},"width":192,"height":29},"matricula":{"type":"string","position":{"x":390,"y":300},"width":110,"height":29},"rg":{"type":"string","position":{"x":359,"y":355},"width":205,"height":29},"cpf":{"type":"string","position":{"x":381,"y":390},"width":205,"height":29},"foto":{"type":"image","position":{"x":55,"y":138},"width":229,"height":303}}' WHERE "id"=22;
+2023-07-13 07:56:42 error: invalid input syntax for type json
+	at d7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76811:70)
+	at d7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76683:23)
+	at d7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-13 07:56:43 Execute sql fail : UPDATE layouts SET informations='\\{"nome":{"position":{"x":420,"y":445},"height":29,"width":333,"type":"string"},"instituicao_de_ensino":{"type":"string","position":{"x":310,"y":355},"width":333,"height":29},"nascimento":{"type":"string","position":{"x":447,"y":307},"width":192,"height":29},"matricula":{"type":"string","position":{"x":390,"y":300},"width":110,"height":29},"rg":{"type":"string","position":{"x":359,"y":355},"width":205,"height":29},"cpf":{"type":"string","position":{"x":381,"y":390},"width":205,"height":29},"foto":{"type":"image","position":{"x":55,"y":138},"width":229,"height":303}}' WHERE "id"=22;
+2023-07-13 07:56:43 error: invalid input syntax for type json
+	at d7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76811:70)
+	at d7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76683:23)
+	at d7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-13 07:56:43 Execute sql fail : UPDATE layouts SET informations='\\{"nome":{"position":{"x":420,"y":445},"height":29,"width":333,"type":"string"},"instituicao_de_ensino":{"type":"string","position":{"x":310,"y":355},"width":333,"height":29},"nascimento":{"type":"string","position":{"x":447,"y":307},"width":192,"height":29},"matricula":{"type":"string","position":{"x":390,"y":300},"width":110,"height":29},"rg":{"type":"string","position":{"x":359,"y":355},"width":205,"height":29},"cpf":{"type":"string","position":{"x":381,"y":390},"width":205,"height":29},"foto":{"type":"image","position":{"x":55,"y":138},"width":229,"height":303}}' WHERE "id"=22;
+2023-07-13 07:56:43 error: invalid input syntax for type json
+	at d7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76811:70)
+	at d7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76683:23)
+	at d7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-13 07:56:45 Execute sql fail : UPDATE layouts SET informations='\\{"nome":{"position":{"x":420,"y":445},"height":29,"width":333,"type":"string"},"instituicao_de_ensino":{"type":"string","position":{"x":310,"y":355},"width":333,"height":29},"nascimento":{"type":"string","position":{"x":447,"y":307},"width":192,"height":29},"matricula":{"type":"string","position":{"x":390,"y":300},"width":110,"height":29},"rg":{"type":"string","position":{"x":359,"y":355},"width":205,"height":29},"cpf":{"type":"string","position":{"x":381,"y":390},"width":205,"height":29},"foto":{"type":"image","position":{"x":55,"y":138},"width":229,"height":303}}' WHERE "id"=22;
+2023-07-13 07:56:45 error: invalid input syntax for type json
+	at d7.parseErrorMessage (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76811:70)
+	at d7.handlePacket (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76683:23)
+	at d7.parse (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76624:24)
+	at Socket.<anonymous> (/home/morishita/.vscode/extensions/cweijan.vscode-database-client2-6.5.12/out/extension.js:76834:34)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)

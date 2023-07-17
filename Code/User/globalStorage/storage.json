@@ -4,7 +4,8 @@
         "workspaces": {
             "file:///home/morishita/Dev/Tests": "__default__profile__",
             "file:///home/morishita/LightOS": "__default__profile__",
-            "file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend": "__default__profile__"
+            "file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend": "__default__profile__",
+            "file:///home/morishita/.config": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -14,21 +15,25 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend"
+                "folderUri": "file:///home/morishita/.config"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1689602783640"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend",
-            "backupPath": "/home/morishita/.config/Code/Backups/d83138de065d23d602cbe8077e9f25b1",
+            "folder": "file:///home/morishita/.config",
+            "backupPath": "/home/morishita/.config/Code/Backups/4dce4ca38d1ccea824856af07e6109f0",
             "uiState": {
                 "mode": 1,
                 "x": 12,
-                "y": 44,
-                "width": 1896,
-                "height": 991
+                "y": 546,
+                "width": 941,
+                "height": 488
             }
         },
         "openedWindows": []
@@ -80,6 +85,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/morishita/.config",
+                                        "path": "/home/morishita/.config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/morishita/Dev/LightStand/Backend/smart-pass-backend",
                                         "path": "/home/morishita/Dev/LightStand/Backend/smart-pass-backend",
                                         "scheme": "file"
@@ -111,6 +127,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/morishita/.code",
+                                        "path": "/home/morishita/.code",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.code"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -593,8 +620,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1147,7 +1173,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

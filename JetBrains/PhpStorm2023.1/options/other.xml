@@ -12,13 +12,13 @@
     "PluginConfigurable.selectionTab": "1",
     "RunOnceActivity.se.text.search": "true",
     "SettingsSearchHistory": "terminal",
-    "appcds.runOnSecondStart": "PS-231.9161.47-8b3956571de4c4abaa4d648fb94b3724b81e63102da6134484107e3501b30a83",
+    "appcds.runOnSecondStart": "PS-231.9161.47-a2752941c2d06a39c4f1c947f86a3ef34c6e46a5e66d8833e61ec0dcbeb140e1",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "bundled.plugins.list.saved.version": "PS-231.9161.47",
     "evlsprt3.231": "22",
     "experimental.ui.first.promotion.localdate": "2023-06-27",
     "experimental.ui.used.once": "true",
-    "file.gist.reindex.count": "17",
+    "file.gist.reindex.count": "18",
     "fileTypeChangedCounter": "3",
     "fontSizeToResetConsole": "16.0",
     "fontSizeToResetEditor": "16.0",
@@ -51,7 +51,7 @@
 }]]></component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="infocar-backend-history2" project-path="$USER_HOME$/Dev/Infocar/Backend/infocar-backend" last-access-time="1689172359305" />
+      <command-history-file filename="infocar-backend-history2" project-path="$USER_HOME$/Dev/Infocar/Backend/infocar-backend" last-access-time="1689279049422" />
     </command-history-files>
   </component>
 </application>
